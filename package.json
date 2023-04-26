@@ -1,0 +1,23 @@
+{
+    "name": "chat-gpt",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development nodemon ./scr/main.js",
+        "start": "cross-env NODE_ENV=production node ./scr/main.js"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.3",
+        "nodemon": "^2.0.22"
+    },
+    "dependencies": {
+        "@ffmpeg-installer/ffmpeg": "^1.1.0",
+        "axios": "^1.3.6",
+        "config": "^3.3.9",
+        "fluent-ffmpeg": "^2.1.2",
+        "openai": "^3.2.1",
+        "telegraf": "^4.12.2"
+    }
+}
